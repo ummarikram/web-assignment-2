@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function WishList() {
@@ -39,9 +40,7 @@ export default function WishList() {
             <br></br>
             <h1 className='ml-8'>Question #2</h1>
             <br></br>
-            <a className='mr-8 float-right underline font-bold text-xl' href='/'>
-                Goto Question #1?
-            </a>
+            <Link className='mr-8 float-right underline font-bold text-xl' href='/'>Goto Question #1?</Link>
 
             <div className="h-100 w-full flex items-center justify-center bg-teal-lightest font-sans">
                 <div className="bg-transparent rounded shadow p-4 m-4 w-full">

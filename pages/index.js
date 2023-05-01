@@ -61,9 +61,7 @@ export default function Index() {
       <br></br>
       <h1 className='ml-8'>Question #1</h1>
       <br></br>
-      <a className='mr-8 float-right underline font-bold text-xl' href='/wishList'>
-        Goto Question #2?
-      </a>
+      <Link className='mr-8 float-right underline font-bold text-xl' href='/wishList'>Goto Question #2?</Link>
 
       <div className="h-100 w-full flex items-center justify-center bg-teal-lightest font-sans">
         <div className="bg-transparent rounded shadow p-4 m-4 w-full">
