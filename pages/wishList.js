@@ -39,7 +39,6 @@ export default function WishList() {
             <br></br>
             <h1 className='ml-8'>Question #2</h1>
             <br></br>
-            
             <a className='mr-8 float-right underline font-bold text-xl' href='/' target="_blank">
                 Goto Question #1?
             </a>
@@ -57,7 +56,7 @@ export default function WishList() {
 
                         {list.map((value, index) => {
 
-                            return (<div className="flex flex-col mb-4 items-center justify-center">
+                            return (<div key={index} className="flex flex-col mb-4 items-center justify-center">
 
                                 <img width={64} height={64} src={value.picture} />
 

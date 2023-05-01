@@ -78,7 +78,7 @@ export default function Index() {
 
             {list.map((value, index) => {
 
-              return (<div className="flex mb-4 items-center">
+              return (<div key={index} className="flex mb-4 items-center">
 
                 <p className="w-full text-grey-darkest">{value.text}</p>
 
